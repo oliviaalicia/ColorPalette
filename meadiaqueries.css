@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+  }
+
+ input, .color{
+    width: 20vh;
+    height: 75px;
+    margin: 0.25em;
+    cursor: pointer;
+    display: block;
+}
+}

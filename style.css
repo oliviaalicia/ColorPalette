@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin: 15px;
+}
+
+section {
+    align-items: center;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 20px;
+    }
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+    h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+}
+.selector, .buttons{
+    text-align: center;
+}
+input[type="color"]{
+display: block;
+margin: 0.5em auto;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#white {
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+
+button {
+    border-radius: 5px;
+    border-color: black;
+    border-width: thick;
+    width: 15vh;
+    height: 50px;
+    margin: 5px;
+    border-style: dotted dotted double dotted;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+
+#colorButton{
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+input, .color{
+    width: 50vh;
+    height: 150px;
+    margin: 0.25em;
+    cursor: pointer;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
